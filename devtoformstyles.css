@@ -1,0 +1,194 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body { 
+    background: #e5e5e5;
+    display: flex;
+    flex-wrap: wrap;
+}    
+.flex-resp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 180px;
+} 
+.cuandroSearch{
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+}
+.search{  
+    width: 350px;
+    height: 35px;
+    margin-left: 1em;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+.lupa{
+    margin-left: -26px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0px 5.5px;
+}
+.lupa:hover{
+    background-color: rgba(170, 172, 216, 0.249);
+    padding-left: 25 px;
+}
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    top:0px;
+    width: 97%;
+    background: whitesmoke;
+}
+.header-left {
+    display: flex;
+}
+.header-right {
+    display: flex;
+    align-items: baseline;
+}
+.login {
+    border: none;
+    color: black;
+    padding:  14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;   
+}
+.login:hover{
+    background-color: rgba(170, 172, 216, 0.249);
+    padding-left: 25 px;
+    text-decoration-line: underline;
+    color: blue;
+}
+.button-account {
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-color: blue;
+    border-width: 1px;
+    border-style: groove;
+    border-radius:8px;
+    font-size: 15px;
+    color: blue;
+    padding-top: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 8px;
+    background-color: ffffff;
+}
+.button-account:hover{
+    background-color: blue;
+    padding-left: 25px;
+    text-decoration: #ffffff;
+    color:  #ffffff;
+}
+.submit-form {
+    width: 500px;
+    height: fit-content;
+    background-color:#ffffff;
+    padding: 30px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 20px;
+}
+.submit-form h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bolder;
+    color: black;
+}
+.submit-form h5 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    color: black;
+}
+.controls {
+    width: 95%;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.controls:hover{
+    background-color: rgb(248, 248, 248);
+    text-decoration-style: groove;
+}
+.submit-form p {
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+.submit-form a{
+    color: blue;
+    text-decoration: none;
+}
+.buttons {
+    width: 100%;
+    background-color: #3b49df;
+    border: none;
+    padding: 15px;
+    color: whitesmoke;
+    margin: 5px 0;
+    font-size: 15px;
+    border-radius: 8px;
+}
+.buttons:hover{
+    background-color: #3b49df;
+    opacity: 0.9;
+}
+#apple {
+    background-color: black;
+}
+#apple:hover {
+    background-color: black;
+    opacity: 0.5;
+}
+#forem {
+    background-color: #0a3e4a;
+}
+#forem:hover{
+    background-color: #0a3e4a;
+    opacity: 0.9;
+}
+#github {
+    background-color: #24292e;
+}
+#github:hover {
+    background-color: #24292e;
+    opacity: 0.9;
+}
+#twitter {
+    background-color: #1da1f2;
+}
+#twitter:hover{
+    background-color: #1da1f2;
+    opacity: 0.9;
+}
+.footer {
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background: #e5e5e5;
+    font: 12px solid grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
